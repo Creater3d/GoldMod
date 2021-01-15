@@ -7,7 +7,7 @@ goldMountains.objectives = Seq.with(
   new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
   new Objectives.Research(Blocks.laserDrill)
 );
-
+goldMountains.alwaysUnlocked = true;
 const goldMines = new JavaAdapter(SectorPreset, {}, "goldMines", Planets.serpulo, 34);
 
 const abandonedDesert = new JavaAdapter(SectorPreset, {}, "abandonedDesert", Planets.serpulo, 103);
